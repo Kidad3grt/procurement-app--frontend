@@ -18,4 +18,13 @@ export default defineConfig({
       "/ws":   { target: "ws://127.0.0.1:8000",   ws: true, changeOrigin: true },
     },
   },
+
+  // ADD THIS — tells Vite where to put built files
+  // The Dockerfile expects files in /app/dist
+  // COPY --from=builder /app/dist /usr/share/nginx/html
+  build: {
+    outDir: "dist",
+    emptyOutDir: true,
+  },
+
 });

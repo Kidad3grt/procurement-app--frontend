@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react";
 import api from "../api/api";
 import { Loader, Modal, StatusBadge, EmptyState, toast, formatDate, formatCurrency } from "../components/UI";
-import POPreview from "../components/POPreview";
+import POPreview from "../components/PoPreview";
 import Icon from "../components/Icons";
 import T from "../styles/tokens";
 
