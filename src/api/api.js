@@ -21,7 +21,8 @@
 //   state-changing request (POST, PATCH, PUT, DELETE).
 // ─────────────────────────────────────────────────────────────────────────────
 
-const BASE_URL = "/api";
+const BASE_URL = "http://16.192.77.53:8000/api"; 
+// "/api";
 
 // ── CSRF helper ───────────────────────────────────────────────────────────────
 // Django's csrftoken cookie is non-HttpOnly so JS can read it.
