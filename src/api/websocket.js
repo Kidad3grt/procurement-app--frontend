@@ -21,7 +21,7 @@
 //   issued a new access_token cookie, so the new connection is fresh.
 // ─────────────────────────────────────────────────────────────────────────────
 
-const WS_BASE = "ws://16.192.77.53:8000";
+const WS_BASE = "ws://13.60.202.172:8000";
 //`${window.location.protocol === "https:" ? "wss" : "ws"}://${window.location.host}`;
 
 class ProcurementSocket {
